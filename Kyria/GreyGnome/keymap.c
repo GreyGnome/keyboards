@@ -277,7 +277,6 @@ void encoder_update_user(uint8_t index, bool clockwise) {
             else
                 SEND_STRING(SS_DOWN(X_LALT) SS_TAP(X_RIGHT) SS_UP(X_LALT));
             // tap_code((clockwise == true) ? KC_WBAK: KC_WFWD);
-            // wow
         } else {
             tap_code((clockwise == true) ? KC_PGUP : KC_PGDN);
         }
